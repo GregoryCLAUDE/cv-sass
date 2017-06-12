@@ -1,27 +1,61 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  width: 100%; }
+
 h1 {
   background-color: black;
   color: white;
-  border: 10px solid blue;
-  text-align: center; }
+  border: 10px solid black;
+  text-align: center;
+  text-shadow: black 2px 2px;
+  font-size: 3rem; }
+
+html {
+  background: linear-gradient(to top left, white, #191970); }
+
+ul li {
+  color: white; }
+
+ul li img {
+  max-height: 1%;
+  max-width: 1%; }
+
+p {
+  color: white; }
 
 .boxstyle {
-  background: linear-gradient(to bottom right, yellow, green);
-  box-shadow: 8px 8px 10px 0px blue, -5px -5px 5px 0px orange, 5px 5px 15px 0px green;
+  background: linear-gradient(to bottom right, #191970, black);
+  box-shadow: 8px 8px 10px #191970, -5px -5px 5px 0px black, 5px 5px 15px 0px, white;
   padding: 0em 1em;
   border-radius: 16px;
   border-style: solid;
   margin-left: 10px;
-  font: 24px sans-serif;
   line-height: 2; }
 
 .container {
   width: 200;
-  border: 1em solid white; }
+  border-spacing: 5px; }
 
-.split {
+.box, .midleftside, .s15, .semihalf {
+  border-collapse: separate;
+  border-spacing: 50px;
   box-sizing: border-box;
-  width: 50%;
-  border: 1em silver ridge;
   float: left; }
+
+.midleftside {
+  width: 37%; }
+
+.s15 {
+  width: 75%;
+  border: 0.5em solid black; }
+
+.semihalf {
+  border: 0.5em black solid;
+  width: 25%; }
+
+.semihalf img {
+  padding-left: 5%;
+  max-width: 90%; }
 
 /*# sourceMappingURL=style.css.map */
