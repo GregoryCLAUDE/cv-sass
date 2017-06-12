@@ -1,5 +1,6 @@
 $primary-color : black;
 $secondary-color : white;
-$third-color : blue;
-$degrade-color : linear-gradient(to bottom right, yellow, green);
-$psycheshadow-color : 8px 8px 10px 0px blue, -5px -5px 5px 0px orange, 5px 5px 15px 0px green;
+$third-color : #191970;
+
+$degrade-color : linear-gradient(to bottom right, $third-color, $primary-color);
+$psycheshadow-color : 8px 8px 10px $third-color , -5px -5px 5px 0px $primary-color  , 5px 5px 15px 0px  ,$secondary-color;
